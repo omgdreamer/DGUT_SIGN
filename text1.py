@@ -9,9 +9,9 @@ driver.get('https://yqfk-daka.dgut.edu.cn/')
 time.sleep(2)
 # 登录账号密码
 text_label = driver.find_element(By.ID, 'username')
-text_label.send_keys('202041413220')
+text_label.send_keys('****')
 text_label = driver.find_element(By.ID, 'password')
-text_label.send_keys('Aa86532909')
+text_label.send_keys('****')
 
 # 执行单击操作
 driver.find_element(By.ID, 'login_submit').click()
